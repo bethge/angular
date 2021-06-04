@@ -2102,8 +2102,8 @@ export class FormArray extends AbstractControl {
    *   'last'
    * ]);
    *
-   * console.log(this.arr.value);  // ['name', 'last name']
-   * console.log(this.arr.get(0).status);  // 'DISABLED'
+   * console.log(this.arr.value);  // ['last']
+   * console.log(this.arr.get('0').status);  // 'DISABLED'
    * ```
    *
    * @param value Array of values for the controls
